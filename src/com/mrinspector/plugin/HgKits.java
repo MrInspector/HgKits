@@ -61,5 +61,6 @@ public class HgKits extends JavaPlugin {
 
   @EventHandler
   public void onJoin(PlayerJoinEvent e){
+    // Join message
     e.getPlayer().sendMessage(ChatColor.GOLD + "[HgKits] Running Hg-Kits Version 1.0.0 by MrInspector!");
   }
